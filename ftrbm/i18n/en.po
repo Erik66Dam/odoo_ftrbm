@@ -1,0 +1,490 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ftrbm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20181018\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-28 09:30+0000\n"
+"PO-Revision-Date: 2019-02-28 10:57+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_apellidos
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_apellidos
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_apellidos
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_apellidos
+msgid "Apellidos"
+msgstr "LastName"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_poblacion
+msgid "Celebrado en"
+msgstr "Celebrated on"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_club
+msgid "Club"
+msgstr "Club"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_equipo_club
+msgid "Club en la que pertenece el equipo"
+msgstr "Club to which the team belongs"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_1
+msgid "Comité técnico de árbitros"
+msgstr "Technical committee of referees"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_create_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_create_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_create_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_create_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_create_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_create_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_create_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_create_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_create_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_create_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_cuenta_bancaria
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_cuenta_bancaria
+msgid "Cuenta bancaria"
+msgstr "Bank account"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_mesa_cuenta_bancaria
+msgid "Cuenta bancaria de la mesa o del mesa"
+msgstr "Bank account of the table"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_arbitro_cuenta_bancaria
+msgid "Cuenta bancaria de la árbitro o del árbitro"
+msgstr "Bank account of referee"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_name
+msgid "DNI"
+msgstr "DNI"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_arbitro_edad
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_jugador_edad
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_mesa_edad
+msgid "Debe de ser mayor de 16 años"
+msgstr "Must be over 16 years old"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_entrenador_edad
+msgid "Debe de ser mayor de 18 años"
+msgstr "Must be over 18 years old"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_display_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_display_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_display_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_display_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_display_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_edad
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_edad
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_edad
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_edad
+msgid "Edad"
+msgstr "Age"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_entrenador_name
+msgid "El DNI de la entrenadora o del entrenador"
+msgstr "DNI of the trainer"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_mesa_name
+msgid "El DNI de la mesa o del mesa"
+msgstr "DNI of the table"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_arbitro_name
+msgid "El DNI de la árbitro o del árbitro"
+msgstr "DNI of the referee"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_jugador_name
+msgid "El DNI del jugador"
+msgstr "DNI of the player"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_entrenador_nombre
+msgid "El nombre de la entrenadora o del entrenador"
+msgstr "Name of the trainer"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_mesa_nombre
+msgid "El nombre de la mesa o del mesa"
+msgstr "Name of the table"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_arbitro_nombre
+msgid "El nombre de la árbitro o del árbitro"
+msgstr "Name of the referee"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_jugador_nombre
+msgid "El nombre del jugador"
+msgstr "Name of the player"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_6_list
+msgid "Encuentros"
+msgstr "Match"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_3_list
+msgid "Entrenadores"
+msgstr "Trainers"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_equipo
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_equipo
+msgid "Equipo"
+msgstr "Team"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_equipoa
+msgid "Equipo Local"
+msgstr "Local team"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_entrenador_equipo
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_jugador_equipo
+msgid "Equipo al que pertenece"
+msgstr "Equipment to which it belongs"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_equipoa
+msgid "Equipo que juega de local"
+msgstr "Team playing at home"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_equipob
+msgid "Equipo que juega de visitante"
+msgstr "Team playing away"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_equipob
+msgid "Equipo visitante"
+msgstr "Visiting team"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_5_list
+msgid "Equipos"
+msgstr "Teams"
+
+#. module: ftrbm
+#: sql_constraint:ftrbm.arbitro:0 sql_constraint:ftrbm.entrenador:0
+#: sql_constraint:ftrbm.jugador:0 sql_constraint:ftrbm.mesa:0
+msgid "Ese DNI ya existe"
+msgstr "That DNI already exists"
+
+#. module: ftrbm
+#: sql_constraint:ftrbm.equipo:0
+msgid "Ese EQUIPO ya existe"
+msgstr "That TEAM already exists"
+
+#. module: ftrbm
+#: sql_constraint:ftrbm.encuentro:0
+msgid "Ese ID ya existe"
+msgstr "That ID already exists"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_root
+msgid "FTRBM"
+msgstr "FTRBM"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_fecha
+msgid "Fecha"
+msgstr "Date"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_fecha_ingreso
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_fecha_ingreso
+msgid "Fecha de Ingreso"
+msgstr "Date of admission"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_fecha_creacion
+msgid "Fecha de creacion"
+msgstr "Creation date"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_arbitro_fecha_ingreso
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_mesa_fecha_ingreso
+msgid "Fecha en la que ingresó"
+msgstr "date he entered"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_fecha
+msgid "Fecha en la que se realizó"
+msgstr "Completion date"
+
+#. module: ftrbm
+#: model:ir.actions.act_window,name:ftrbm.arbitro_action_window
+#: model:ir.actions.act_window,name:ftrbm.encuentro_action_window
+#: model:ir.actions.act_window,name:ftrbm.entrenador_action_window
+#: model:ir.actions.act_window,name:ftrbm.equipo_action_window
+#: model:ir.actions.act_window,name:ftrbm.jugador_action_window
+#: model:ir.actions.act_window,name:ftrbm.mesa_action_window
+msgid "Federación Territorial Riojana de Balonmano"
+msgstr "La Rioja Handball Federation"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_4
+msgid "Gestión de encuentros"
+msgstr "Management of macth"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_3
+msgid "Gestión de equipos"
+msgstr "management of teams"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_2
+msgid "Gestión de personal"
+msgstr "management of personal"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_golesa
+msgid "Goles Local"
+msgstr "Local goals"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_golesb
+msgid "Goles Visitante"
+msgstr "Visitor goals"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_golesa
+msgid "Goles del equipo local"
+msgstr "Local team goals"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_golesb
+msgid "Goles del equipo visitante"
+msgstr "Visitor team goals"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_id
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_id
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_id
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_id
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_id
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_id
+msgid "ID"
+msgstr "ID"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_name
+msgid "ID del encuentro"
+msgstr "ID match"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_4_list
+msgid "Jugadores"
+msgstr "Players"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro___last_update
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro___last_update
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador___last_update
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo___last_update
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador___last_update
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_write_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_write_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_write_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_write_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_write_uid
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_write_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_write_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_write_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_write_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_write_date
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_mesa
+msgid "Mesa"
+msgstr "Table"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_mesa
+msgid "Mesa ayudante que dirige el partido"
+msgstr "Assistant table leading the match"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_2_list
+msgid "Mesas"
+msgstr "tables"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_arbitro_nombre
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_entrenador_nombre
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_name
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_nombre
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_mesa_nombre
+msgid "Nombre"
+msgstr "Name"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_jugador_numero
+msgid "Numero"
+msgstr "Number"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_jugador_numero
+msgid "Número asignado para poder jugar"
+msgstr "Number asignated to play"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_equipo_poblacion
+msgid "Población"
+msgstr "Town"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_equipo_poblacion
+msgid "Población en la que pertenece el equipo"
+msgstr "Town in which the team belongs"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_poblacion
+msgid "Población en la que se celebra el encuentro"
+msgstr "Town in which the meeting is celebrated"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_entrenador_apellidos
+msgid "Primer y segundo apellido de la entrenadora o del entrenador"
+msgstr "First and second surname of the trainer"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_mesa_apellidos
+msgid "Primer y segundo apellido de la mesa o del mesa"
+msgstr "First and second surname of the table"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_arbitro_apellidos
+msgid "Primer y segundo apellido de la árbitro o del árbitro"
+msgstr "First and second surname of the referee"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_jugador_apellidos
+msgid "Primer y segundo apellido del jugador"
+msgstr "First and second surname of the player"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_terreno
+msgid "Terreno de juego"
+msgstr "Playing field"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_terreno
+msgid "Terreno de juego en que se celebra el encuentro"
+msgstr "Playing field in which the match is held"
+
+#. module: ftrbm
+#: model:ir.model,name:ftrbm.model_ftrbm_arbitro
+msgid "ftrbm.arbitro"
+msgstr ""
+
+#. module: ftrbm
+#: model:ir.model,name:ftrbm.model_ftrbm_encuentro
+msgid "ftrbm.encuentro"
+msgstr ""
+
+#. module: ftrbm
+#: model:ir.model,name:ftrbm.model_ftrbm_entrenador
+msgid "ftrbm.entrenador"
+msgstr ""
+
+#. module: ftrbm
+#: model:ir.model,name:ftrbm.model_ftrbm_equipo
+msgid "ftrbm.equipo"
+msgstr ""
+
+#. module: ftrbm
+#: model:ir.model,name:ftrbm.model_ftrbm_jugador
+msgid "ftrbm.jugador"
+msgstr ""
+
+#. module: ftrbm
+#: model:ir.model,name:ftrbm.model_ftrbm_mesa
+msgid "ftrbm.mesa"
+msgstr ""
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_equipo_name
+msgid "nombre del equipo"
+msgstr "Name of the team"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_arbitro1
+msgid "Árbitro"
+msgstr "Referee"
+
+#. module: ftrbm
+#: model:ir.model.fields,field_description:ftrbm.field_ftrbm_encuentro_arbitro2
+msgid "Árbitro ayudante"
+msgstr "Assistant referee"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_arbitro2
+msgid "Árbitro ayudante que dirige el partido"
+msgstr "Assistant referee who runs the match"
+
+#. module: ftrbm
+#: model:ir.model.fields,help:ftrbm.field_ftrbm_encuentro_arbitro1
+msgid "Árbitro que dirige el partido"
+msgstr "Referee who runs the match"
+
+#. module: ftrbm
+#: model:ir.ui.menu,name:ftrbm.menu_1_list
+msgid "Árbitros"
+msgstr "Referees"

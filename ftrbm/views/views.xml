@@ -1,0 +1,203 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="ftrbm.arbitro">
+      <field name="name">Listado de árbitros</field>
+      <field name="model">ftrbm.arbitro</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="nombre"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="fecha_ingreso"/>
+          <field name="cuenta_bancaria"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="ftrbm.mesa">
+      <field name="name">Listado de mesas</field>
+      <field name="model">ftrbm.mesa</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="nombre"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="fecha_ingreso"/>
+          <field name="cuenta_bancaria"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="ftrbm.entrenador">
+      <field name="name">Listado de entrenadores</field>
+      <field name="model">ftrbm.entrenador</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="nombre"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="equipo"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="ftrbm.entrenador">
+      <field name="name">Listado de entrenadores</field>
+      <field name="model">ftrbm.entrenador</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="nombre"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="equipo"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="ftrbm.jugador">
+      <field name="name">Listado de jugadores</field>
+      <field name="model">ftrbm.jugador</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="nombre"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="equipo"/>
+          <field name="numero"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="ftrbm.equipo">
+      <field name="name">Listado de equipos</field>
+      <field name="model">ftrbm.equipo</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="club"/>
+          <field name="poblacion"/>
+          <field name="fecha_creacion"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="ftrbm.encuentro">
+      <field name="name">Listado de encuentros</field>
+      <field name="model">ftrbm.encuentro</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+
+          <field name="equipoa"/>
+          <field name="equipob"/>
+          <field name="golesa"/>
+          <field name="golesb"/>
+          <field name="arbitro1"/>
+          <field name="arbitro2"/>
+          <field name="mesa"/>
+          <field name="poblacion"/>
+          <field name="terreno"/>
+          <field name="fecha"/>
+
+
+        </tree>
+      </field>
+    </record>
+
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="ftrbm.arbitro_action_window">
+      <field name="name">Federación Territorial Riojana de Balonmano</field>
+      <field name="res_model">ftrbm.arbitro</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="ftrbm.mesa_action_window">
+      <field name="name">Federación Territorial Riojana de Balonmano</field>
+      <field name="res_model">ftrbm.mesa</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="ftrbm.entrenador_action_window">
+      <field name="name">Federación Territorial Riojana de Balonmano</field>
+      <field name="res_model">ftrbm.entrenador</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="ftrbm.jugador_action_window">
+      <field name="name">Federación Territorial Riojana de Balonmano</field>
+      <field name="res_model">ftrbm.jugador</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="ftrbm.equipo_action_window">
+      <field name="name">Federación Territorial Riojana de Balonmano</field>
+      <field name="res_model">ftrbm.equipo</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="ftrbm.encuentro_action_window">
+      <field name="name">Federación Territorial Riojana de Balonmano</field>
+      <field name="res_model">ftrbm.encuentro</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="ftrbm.action_server">
+      <field name="name">FTRBM server</field>
+      <field name="model_id" ref="model_ftrbm_ftrbm"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+
+    <menuitem name="FTRBM" id="ftrbm.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Comité técnico de árbitros" id="ftrbm.menu_1" parent="ftrbm.menu_root"/>
+    <menuitem name="Gestión de personal" id="ftrbm.menu_2" parent="ftrbm.menu_root"/>
+    <menuitem name="Gestión de equipos" id="ftrbm.menu_3" parent="ftrbm.menu_root"/>
+    <menuitem name="Gestión de encuentros" id="ftrbm.menu_4" parent="ftrbm.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Árbitros" id="ftrbm.menu_1_list" parent="ftrbm.menu_1"
+              action="ftrbm.arbitro_action_window"/>
+    <menuitem name="Mesas" id="ftrbm.menu_2_list" parent="ftrbm.menu_1"
+              action="ftrbm.mesa_action_window"/>
+
+    <menuitem name="Entrenadores" id="ftrbm.menu_3_list" parent="ftrbm.menu_2"
+              action="ftrbm.entrenador_action_window"/>
+    <menuitem name="Jugadores" id="ftrbm.menu_4_list" parent="ftrbm.menu_2"
+              action="ftrbm.jugador_action_window"/>
+
+    <menuitem name="Equipos" id="ftrbm.menu_5_list" parent="ftrbm.menu_3"
+              action="ftrbm.equipo_action_window"/>
+
+    <menuitem name="Encuentros" id="ftrbm.menu_6_list" parent="ftrbm.menu_4"
+              action="ftrbm.encuentro_action_window"/>
+
+
+  </data>
+</odoo>

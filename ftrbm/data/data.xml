@@ -1,0 +1,237 @@
+<odoo>
+    <data>
+      <record id="arb1" model="ftrbm.arbitro">
+        <field name="name">16632824Y</field>
+        <field name="nombre">Erik</field>
+        <field name="apellidos">Garcia</field>
+        <field name="edad">22</field>
+        <field name="fecha_ingreso">27/02/2016</field>
+        <field name="cuenta_bancaria">ES64 2085 4567 7894 1234 4654</field>
+      </record>
+
+      <record id="arb2" model="ftrbm.arbitro">
+        <field name="name">16656789P</field>
+        <field name="nombre">Emilio</field>
+        <field name="apellidos">Martinez</field>
+        <field name="edad">42</field>
+        <field name="fecha_ingreso">15/11/2007</field>
+        <field name="cuenta_bancaria">ES64 9875 4567 2145 1234 4984</field>
+      </record>
+
+      <record id="arb3" model="ftrbm.arbitro">
+        <field name="name">16897512J</field>
+        <field name="nombre">Juan José</field>
+        <field name="apellidos">Garcia</field>
+        <field name="edad">49</field>
+        <field name="fecha_ingreso">17/12/2009</field>
+        <field name="cuenta_bancaria">ES64 2785 6345 7894 1234 4635</field>
+      </record>
+
+      <record id="arb4" model="ftrbm.arbitro">
+        <field name="name">16951234M</field>
+        <field name="nombre">Ignacio</field>
+        <field name="apellidos">Pozo</field>
+        <field name="edad">35</field>
+        <field name="fecha_ingreso">06/09/2008</field>
+        <field name="cuenta_bancaria">ES64 2975 4835 7894 1456 4657</field>
+      </record>
+
+      <record id="mesa1" model="ftrbm.mesa">
+        <field name="name">16789456I</field>
+        <field name="nombre">Ruben</field>
+        <field name="apellidos">Rodriguez</field>
+        <field name="edad">22</field>
+        <field name="fecha_ingreso">27/02/2017</field>
+        <field name="cuenta_bancaria">ES64 2085 4455 7354 1735 4125</field>
+      </record>
+
+      <record id="mesa2" model="ftrbm.mesa">
+        <field name="name">16985772G</field>
+        <field name="nombre">Rebeca</field>
+        <field name="apellidos">Fernan</field>
+        <field name="edad">20</field>
+        <field name="fecha_ingreso">27/03/2018</field>
+        <field name="cuenta_bancaria">ES64 2085 5825 7456 1893 4175</field>
+      </record>
+
+      <record id="mesa3" model="ftrbm.mesa">
+        <field name="name">16985247H</field>
+        <field name="nombre">Jorge</field>
+        <field name="apellidos">Macha</field>
+        <field name="edad">27</field>
+        <field name="fecha_ingreso">20/11/2017</field>
+        <field name="cuenta_bancaria">ES64 2789 4412 7474 2535 4185</field>
+      </record>
+
+      <record id="equipo1" model="ftrbm.equipo">
+        <field name="name">Calasancio</field>
+        <field name="club">Calasancio</field>
+        <field name="poblacion">Logroño</field>
+        <field name="fecha_creacion">27/03/1990</field>
+      </record>
+
+      <record id="equipo2" model="ftrbm.equipo">
+        <field name="name">Escolapios</field>
+        <field name="club">Calasancio</field>
+        <field name="poblacion">Logroño</field>
+        <field name="fecha_creacion">27/03/1990</field>
+      </record>
+
+
+      <record id="equipo3" model="ftrbm.equipo">
+        <field name="name">UD. Navarrete</field>
+        <field name="club">Navarrete</field>
+        <field name="poblacion">Navarrete</field>
+        <field name="fecha_creacion">27/03/1990</field>
+      </record>
+
+
+      <record id="equipo4" model="ftrbm.equipo">
+        <field name="name">Ciudad de Logroño B</field>
+        <field name="club">Naturhouse</field>
+        <field name="poblacion">Logroño</field>
+        <field name="fecha_creacion">27/03/1990</field>
+      </record>
+
+
+      <record id="equipo5" model="ftrbm.equipo">
+        <field name="name">Oyon</field>
+        <field name="club">Oyonesa</field>
+        <field name="poblacion">Oion</field>
+        <field name="fecha_creacion">27/03/1990</field>
+      </record>
+
+
+      <record id="equipo6" model="ftrbm.equipo">
+        <field name="name">Callaghan</field>
+        <field name="club">Arnedo</field>
+        <field name="poblacion">Arnedo</field>
+        <field name="fecha_creacion">27/08/1991</field>
+      </record>
+
+      <record id="equipo7" model="ftrbm.equipo">
+        <field name="name">Vinuesa</field>
+        <field name="club">Vinuesa</field>
+        <field name="poblacion">Vinuesa</field>
+        <field name="fecha_creacion">27/08/1991</field>
+      </record>
+
+      <record id="equipo8" model="ftrbm.equipo">
+        <field name="name">Maristas</field>
+        <field name="club">Ademar</field>
+        <field name="poblacion">Logroño</field>
+        <field name="fecha_creacion">27/08/1994</field>
+      </record>
+
+      <record id="entrenador1" model="ftrbm.entrenador">
+        <field name="name">16857954L</field>
+        <field name="nombre">Juan</field>
+        <field name="apellidos">Rodriguez</field>
+        <field name="edad">50</field>
+        <field name="equipo" ref="equipo8"></field>
+      </record>
+
+      <record id="entrenador2" model="ftrbm.entrenador">
+        <field name="name">16789465G</field>
+        <field name="nombre">Jesús</field>
+        <field name="apellidos">Perez</field>
+        <field name="edad">53</field>
+        <field name="equipo" ref="equipo7"></field>
+      </record>
+
+      <record id="entrenador3" model="ftrbm.entrenador">
+        <field name="name">1621245B</field>
+        <field name="nombre">Marta</field>
+        <field name="apellidos">Rodriguez</field>
+        <field name="edad">36</field>
+        <field name="equipo" ref="equipo6"></field>
+      </record>
+
+      <record id="entrenador4" model="ftrbm.entrenador">
+        <field name="name">16789445D</field>
+        <field name="nombre">José</field>
+        <field name="apellidos">Zambrano</field>
+        <field name="edad">38</field>
+        <field name="equipo" ref="equipo5"></field>
+      </record>
+
+      <record id="entrenador5" model="ftrbm.entrenador">
+        <field name="name">16789654A</field>
+        <field name="nombre">Raúl</field>
+        <field name="apellidos">Saez</field>
+        <field name="edad">41</field>
+        <field name="equipo" ref="equipo4"></field>
+      </record>
+
+      <record id="entrenador6" model="ftrbm.entrenador">
+        <field name="name">16247587F</field>
+        <field name="nombre">Roberto</field>
+        <field name="apellidos">Gil</field>
+        <field name="edad">31</field>
+        <field name="equipo" ref="equipo3"></field>
+      </record>
+
+      <record id="entrenador7" model="ftrbm.entrenador">
+        <field name="name">16465782C</field>
+        <field name="nombre">Maria</field>
+        <field name="apellidos">Almazán</field>
+        <field name="edad">36</field>
+        <field name="equipo" ref="equipo2"></field>
+      </record>
+
+      <record id="entrenador8" model="ftrbm.entrenador">
+        <field name="name">16786125D</field>
+        <field name="nombre">Marcos</field>
+        <field name="apellidos">Gol</field>
+        <field name="edad">39</field>
+        <field name="equipo" ref="equipo1"></field>
+      </record>
+
+
+      <record id="encuentro1" model="ftrbm.encuentro">
+        <field name="name">1</field>
+        <field name="equipoa" ref="equipo1"></field>
+        <field name="equipob" ref="equipo2"></field>
+        <field name="golesa">12</field>
+        <field name="golesb">23</field>
+        <field name="arbitro1" ref="arb1"></field>
+        <field name="arbitro2" ref="arb2"></field>
+        <field name="mesa" ref="mesa1"></field>
+        <field name="poblacion">Logroño</field>
+        <field name="terreno">POL.Escolapios</field>
+        <field name="fecha">11/12/2018</field>
+      </record>
+
+
+      <record id="jugador1" model="ftrbm.jugador">
+        <field name="name">16963852D</field>
+        <field name="nombre">Adrian</field>
+        <field name="apellidos">Carnicero</field>
+        <field name="edad">20</field>
+        <field name="equipo" ref="equipo8"></field>
+        <field name="numero">29</field>
+      </record>
+
+        <!--  -->
+        <!--   <record id="object1" model="ftrbm.ftrbm"> -->
+        <!--     <field name="name">Object 1</field> -->
+        <!--     <field name="value">10</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object2" model="ftrbm.ftrbm"> -->
+        <!--     <field name="name">Object 2</field> -->
+        <!--     <field name="value">20</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object3" model="ftrbm.ftrbm"> -->
+        <!--     <field name="name">Object 3</field> -->
+        <!--     <field name="value">30</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object4" model="ftrbm.ftrbm"> -->
+        <!--     <field name="name">Object 4</field> -->
+        <!--     <field name="value">40</field> -->
+        <!--   </record> -->
+
+    </data>
+</odoo>
